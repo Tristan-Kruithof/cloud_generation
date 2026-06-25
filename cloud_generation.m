@@ -441,6 +441,9 @@ function handle_key_input(source, event)
     % Stopt of speelt de simulatie met spatie
     case 'space'
       play_sim(source, event);
+    % open help
+    case 'slash' % ? = /
+      click_help(source, event);
     % restart de simulatie met r
     case 'r'
       click_restart(source, event);
